@@ -193,15 +193,5 @@ namespace Tecnologie
             textBox4.Text = pizzeResponse.Pizze[index].Id.ToString();
 
         }
-
-        private void pictureBox5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

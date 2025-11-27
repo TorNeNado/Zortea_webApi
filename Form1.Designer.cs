@@ -293,7 +293,6 @@
             this.pictureBox5.Size = new System.Drawing.Size(67, 67);
             this.pictureBox5.TabIndex = 24;
             this.pictureBox5.TabStop = false;
-            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
             // 
             // pictureBox6
             // 
@@ -415,8 +414,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.listBox1);
             this.Name = "Form1";
-            this.Text = "yy";
-            this.Load += new System.EventHandler(this.Form1_Load);
+            this.Text = "WebApi";
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
             this.panel1.ResumeLayout(false);
