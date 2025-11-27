@@ -1,0 +1,157 @@
+C:\Users\giacomo.clerico\source\repos\Tecnologie\obj\Debug\Tecnologie.csproj.AssemblyReference.cache
+C:\Users\giacomo.clerico\source\repos\Tecnologie\obj\Debug\Tecnologie.Form1.resources
+C:\Users\giacomo.clerico\source\repos\Tecnologie\obj\Debug\Tecnologie.Properties.Resources.resources
+C:\Users\giacomo.clerico\source\repos\Tecnologie\obj\Debug\Tecnologie.csproj.GenerateResource.cache
+C:\Users\giacomo.clerico\source\repos\Tecnologie\obj\Debug\Tecnologie.csproj.CoreCompileInputs.cache
+C:\Users\giacomo.clerico\source\repos\Tecnologie\bin\Debug\Tecnologie.exe.config
+C:\Users\giacomo.clerico\source\repos\Tecnologie\bin\Debug\Tecnologie.exe
+C:\Users\giacomo.clerico\source\repos\Tecnologie\bin\Debug\Tecnologie.pdb
+C:\Users\giacomo.clerico\source\repos\Tecnologie\obj\Debug\Tecnologie.exe
+C:\Users\giacomo.clerico\source\repos\Tecnologie\obj\Debug\Tecnologie.pdb
+C:\Users\giacomo.clerico\source\repos\Tecnologie\obj\Debug\Tecnologie.exe.config
+C:\Users\giacomo.clerico\source\repos\Tecnologie\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\giacomo.clerico\source\repos\Tecnologie\bin\Debug\System.Buffers.dll
+C:\Users\giacomo.clerico\source\repos\Tecnologie\bin\Debug\System.IO.Pipelines.dll
+C:\Users\giacomo.clerico\source\repos\Tecnologie\bin\Debug\System.Memory.dll
+C:\Users\giacomo.clerico\source\repos\Tecnologie\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\giacomo.clerico\source\repos\Tecnologie\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\giacomo.clerico\source\repos\Tecnologie\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\giacomo.clerico\source\repos\Tecnologie\bin\Debug\System.Text.Json.dll
+C:\Users\giacomo.clerico\source\repos\Tecnologie\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\giacomo.clerico\source\repos\Tecnologie\bin\Debug\System.ValueTuple.dll
+C:\Users\giacomo.clerico\source\repos\Tecnologie\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\giacomo.clerico\source\repos\Tecnologie\bin\Debug\System.Buffers.xml
+C:\Users\giacomo.clerico\source\repos\Tecnologie\bin\Debug\System.IO.Pipelines.xml
+C:\Users\giacomo.clerico\source\repos\Tecnologie\bin\Debug\System.Memory.xml
+C:\Users\giacomo.clerico\source\repos\Tecnologie\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\giacomo.clerico\source\repos\Tecnologie\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\giacomo.clerico\source\repos\Tecnologie\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\giacomo.clerico\source\repos\Tecnologie\bin\Debug\System.Text.Json.xml
+C:\Users\giacomo.clerico\source\repos\Tecnologie\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\giacomo.clerico\source\repos\Tecnologie\bin\Debug\System.ValueTuple.xml
+C:\Users\giacomo.clerico\source\repos\Tecnologie\obj\Debug\Tecnologie.csproj.Up2Date
+C:\Users\giacomo.clerico\Downloads\Tecnologie\Tecnologie\bin\Debug\Tecnologie.exe.config
+C:\Users\giacomo.clerico\Downloads\Tecnologie\Tecnologie\bin\Debug\Tecnologie.exe
+C:\Users\giacomo.clerico\Downloads\Tecnologie\Tecnologie\bin\Debug\Tecnologie.pdb
+C:\Users\giacomo.clerico\Downloads\Tecnologie\Tecnologie\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\giacomo.clerico\Downloads\Tecnologie\Tecnologie\bin\Debug\System.Buffers.dll
+C:\Users\giacomo.clerico\Downloads\Tecnologie\Tecnologie\bin\Debug\System.IO.Pipelines.dll
+C:\Users\giacomo.clerico\Downloads\Tecnologie\Tecnologie\bin\Debug\System.Memory.dll
+C:\Users\giacomo.clerico\Downloads\Tecnologie\Tecnologie\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\giacomo.clerico\Downloads\Tecnologie\Tecnologie\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\giacomo.clerico\Downloads\Tecnologie\Tecnologie\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\giacomo.clerico\Downloads\Tecnologie\Tecnologie\bin\Debug\System.Text.Json.dll
+C:\Users\giacomo.clerico\Downloads\Tecnologie\Tecnologie\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\giacomo.clerico\Downloads\Tecnologie\Tecnologie\bin\Debug\System.ValueTuple.dll
+C:\Users\giacomo.clerico\Downloads\Tecnologie\Tecnologie\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\giacomo.clerico\Downloads\Tecnologie\Tecnologie\bin\Debug\System.Buffers.xml
+C:\Users\giacomo.clerico\Downloads\Tecnologie\Tecnologie\bin\Debug\System.IO.Pipelines.xml
+C:\Users\giacomo.clerico\Downloads\Tecnologie\Tecnologie\bin\Debug\System.Memory.xml
+C:\Users\giacomo.clerico\Downloads\Tecnologie\Tecnologie\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\giacomo.clerico\Downloads\Tecnologie\Tecnologie\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\giacomo.clerico\Downloads\Tecnologie\Tecnologie\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\giacomo.clerico\Downloads\Tecnologie\Tecnologie\bin\Debug\System.Text.Json.xml
+C:\Users\giacomo.clerico\Downloads\Tecnologie\Tecnologie\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\giacomo.clerico\Downloads\Tecnologie\Tecnologie\bin\Debug\System.ValueTuple.xml
+C:\Users\giacomo.clerico\Downloads\Tecnologie\Tecnologie\obj\Debug\Tecnologie.csproj.AssemblyReference.cache
+C:\Users\giacomo.clerico\Downloads\Tecnologie\Tecnologie\obj\Debug\Tecnologie.Form1.resources
+C:\Users\giacomo.clerico\Downloads\Tecnologie\Tecnologie\obj\Debug\Tecnologie.Properties.Resources.resources
+C:\Users\giacomo.clerico\Downloads\Tecnologie\Tecnologie\obj\Debug\Tecnologie.csproj.GenerateResource.cache
+C:\Users\giacomo.clerico\Downloads\Tecnologie\Tecnologie\obj\Debug\Tecnologie.csproj.CoreCompileInputs.cache
+C:\Users\giacomo.clerico\Downloads\Tecnologie\Tecnologie\obj\Debug\Tecnologie.csproj.Up2Date
+C:\Users\giacomo.clerico\Downloads\Tecnologie\Tecnologie\obj\Debug\Tecnologie.exe
+C:\Users\giacomo.clerico\Downloads\Tecnologie\Tecnologie\obj\Debug\Tecnologie.pdb
+C:\Users\giacomo.clerico\Downloads\Tecnologie 1\Tecnologie\bin\Debug\Tecnologie.exe.config
+C:\Users\giacomo.clerico\Downloads\Tecnologie 1\Tecnologie\bin\Debug\Tecnologie.exe
+C:\Users\giacomo.clerico\Downloads\Tecnologie 1\Tecnologie\bin\Debug\Tecnologie.pdb
+C:\Users\giacomo.clerico\Downloads\Tecnologie 1\Tecnologie\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\giacomo.clerico\Downloads\Tecnologie 1\Tecnologie\bin\Debug\System.Buffers.dll
+C:\Users\giacomo.clerico\Downloads\Tecnologie 1\Tecnologie\bin\Debug\System.IO.Pipelines.dll
+C:\Users\giacomo.clerico\Downloads\Tecnologie 1\Tecnologie\bin\Debug\System.Memory.dll
+C:\Users\giacomo.clerico\Downloads\Tecnologie 1\Tecnologie\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\giacomo.clerico\Downloads\Tecnologie 1\Tecnologie\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\giacomo.clerico\Downloads\Tecnologie 1\Tecnologie\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\giacomo.clerico\Downloads\Tecnologie 1\Tecnologie\bin\Debug\System.Text.Json.dll
+C:\Users\giacomo.clerico\Downloads\Tecnologie 1\Tecnologie\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\giacomo.clerico\Downloads\Tecnologie 1\Tecnologie\bin\Debug\System.ValueTuple.dll
+C:\Users\giacomo.clerico\Downloads\Tecnologie 1\Tecnologie\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\giacomo.clerico\Downloads\Tecnologie 1\Tecnologie\bin\Debug\System.Buffers.xml
+C:\Users\giacomo.clerico\Downloads\Tecnologie 1\Tecnologie\bin\Debug\System.IO.Pipelines.xml
+C:\Users\giacomo.clerico\Downloads\Tecnologie 1\Tecnologie\bin\Debug\System.Memory.xml
+C:\Users\giacomo.clerico\Downloads\Tecnologie 1\Tecnologie\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\giacomo.clerico\Downloads\Tecnologie 1\Tecnologie\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\giacomo.clerico\Downloads\Tecnologie 1\Tecnologie\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\giacomo.clerico\Downloads\Tecnologie 1\Tecnologie\bin\Debug\System.Text.Json.xml
+C:\Users\giacomo.clerico\Downloads\Tecnologie 1\Tecnologie\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\giacomo.clerico\Downloads\Tecnologie 1\Tecnologie\bin\Debug\System.ValueTuple.xml
+C:\Users\giacomo.clerico\Downloads\Tecnologie 1\Tecnologie\obj\Debug\Tecnologie.csproj.AssemblyReference.cache
+C:\Users\giacomo.clerico\Downloads\Tecnologie 1\Tecnologie\obj\Debug\Tecnologie.Form1.resources
+C:\Users\giacomo.clerico\Downloads\Tecnologie 1\Tecnologie\obj\Debug\Tecnologie.Properties.Resources.resources
+C:\Users\giacomo.clerico\Downloads\Tecnologie 1\Tecnologie\obj\Debug\Tecnologie.csproj.GenerateResource.cache
+C:\Users\giacomo.clerico\Downloads\Tecnologie 1\Tecnologie\obj\Debug\Tecnologie.csproj.CoreCompileInputs.cache
+C:\Users\giacomo.clerico\Downloads\Tecnologie 1\Tecnologie\obj\Debug\Tecnologie.csproj.CopyComplete
+C:\Users\giacomo.clerico\Downloads\Tecnologie 1\Tecnologie\obj\Debug\Tecnologie.exe
+C:\Users\giacomo.clerico\Downloads\Tecnologie 1\Tecnologie\obj\Debug\Tecnologie.pdb
+C:\Users\romangabrilevich.zor\Downloads\Tecnologie 2\Tecnologie\bin\Debug\Tecnologie.exe.config
+C:\Users\romangabrilevich.zor\Downloads\Tecnologie 2\Tecnologie\bin\Debug\Tecnologie.exe
+C:\Users\romangabrilevich.zor\Downloads\Tecnologie 2\Tecnologie\bin\Debug\Tecnologie.pdb
+C:\Users\romangabrilevich.zor\Downloads\Tecnologie 2\Tecnologie\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\romangabrilevich.zor\Downloads\Tecnologie 2\Tecnologie\bin\Debug\System.Buffers.dll
+C:\Users\romangabrilevich.zor\Downloads\Tecnologie 2\Tecnologie\bin\Debug\System.IO.Pipelines.dll
+C:\Users\romangabrilevich.zor\Downloads\Tecnologie 2\Tecnologie\bin\Debug\System.Memory.dll
+C:\Users\romangabrilevich.zor\Downloads\Tecnologie 2\Tecnologie\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\romangabrilevich.zor\Downloads\Tecnologie 2\Tecnologie\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\romangabrilevich.zor\Downloads\Tecnologie 2\Tecnologie\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\romangabrilevich.zor\Downloads\Tecnologie 2\Tecnologie\bin\Debug\System.Text.Json.dll
+C:\Users\romangabrilevich.zor\Downloads\Tecnologie 2\Tecnologie\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\romangabrilevich.zor\Downloads\Tecnologie 2\Tecnologie\bin\Debug\System.ValueTuple.dll
+C:\Users\romangabrilevich.zor\Downloads\Tecnologie 2\Tecnologie\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\romangabrilevich.zor\Downloads\Tecnologie 2\Tecnologie\bin\Debug\System.Buffers.xml
+C:\Users\romangabrilevich.zor\Downloads\Tecnologie 2\Tecnologie\bin\Debug\System.IO.Pipelines.xml
+C:\Users\romangabrilevich.zor\Downloads\Tecnologie 2\Tecnologie\bin\Debug\System.Memory.xml
+C:\Users\romangabrilevich.zor\Downloads\Tecnologie 2\Tecnologie\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\romangabrilevich.zor\Downloads\Tecnologie 2\Tecnologie\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\romangabrilevich.zor\Downloads\Tecnologie 2\Tecnologie\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\romangabrilevich.zor\Downloads\Tecnologie 2\Tecnologie\bin\Debug\System.Text.Json.xml
+C:\Users\romangabrilevich.zor\Downloads\Tecnologie 2\Tecnologie\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\romangabrilevich.zor\Downloads\Tecnologie 2\Tecnologie\bin\Debug\System.ValueTuple.xml
+C:\Users\romangabrilevich.zor\Downloads\Tecnologie 2\Tecnologie\obj\Debug\Tecnologie.csproj.AssemblyReference.cache
+C:\Users\romangabrilevich.zor\Downloads\Tecnologie 2\Tecnologie\obj\Debug\Tecnologie.csproj.SuggestedBindingRedirects.cache
+C:\Users\romangabrilevich.zor\Downloads\Tecnologie 2\Tecnologie\obj\Debug\Tecnologie.Form1.resources
+C:\Users\romangabrilevich.zor\Downloads\Tecnologie 2\Tecnologie\obj\Debug\Tecnologie.Properties.Resources.resources
+C:\Users\romangabrilevich.zor\Downloads\Tecnologie 2\Tecnologie\obj\Debug\Tecnologie.csproj.GenerateResource.cache
+C:\Users\romangabrilevich.zor\Downloads\Tecnologie 2\Tecnologie\obj\Debug\Tecnologie.csproj.CoreCompileInputs.cache
+C:\Users\romangabrilevich.zor\Downloads\Tecnologie 2\Tecnologie\obj\Debug\Tecnologie.csproj.CopyComplete
+C:\Users\romangabrilevich.zor\Downloads\Tecnologie 2\Tecnologie\obj\Debug\Tecnologie.exe
+C:\Users\romangabrilevich.zor\Downloads\Tecnologie 2\Tecnologie\obj\Debug\Tecnologie.pdb
+E:\Tecnologie\bin\Debug\Tecnologie.exe.config
+E:\Tecnologie\bin\Debug\Tecnologie.exe
+E:\Tecnologie\bin\Debug\Tecnologie.pdb
+E:\Tecnologie\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Tecnologie\bin\Debug\System.Buffers.dll
+E:\Tecnologie\bin\Debug\System.IO.Pipelines.dll
+E:\Tecnologie\bin\Debug\System.Memory.dll
+E:\Tecnologie\bin\Debug\System.Numerics.Vectors.dll
+E:\Tecnologie\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\Tecnologie\bin\Debug\System.Text.Encodings.Web.dll
+E:\Tecnologie\bin\Debug\System.Text.Json.dll
+E:\Tecnologie\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\Tecnologie\bin\Debug\System.ValueTuple.dll
+E:\Tecnologie\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+E:\Tecnologie\bin\Debug\System.Buffers.xml
+E:\Tecnologie\bin\Debug\System.IO.Pipelines.xml
+E:\Tecnologie\bin\Debug\System.Memory.xml
+E:\Tecnologie\bin\Debug\System.Numerics.Vectors.xml
+E:\Tecnologie\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\Tecnologie\bin\Debug\System.Text.Encodings.Web.xml
+E:\Tecnologie\bin\Debug\System.Text.Json.xml
+E:\Tecnologie\bin\Debug\System.Threading.Tasks.Extensions.xml
+E:\Tecnologie\bin\Debug\System.ValueTuple.xml
+E:\Tecnologie\obj\Debug\Tecnologie.csproj.AssemblyReference.cache
+E:\Tecnologie\obj\Debug\Tecnologie.Form1.resources
+E:\Tecnologie\obj\Debug\Tecnologie.Properties.Resources.resources
+E:\Tecnologie\obj\Debug\Tecnologie.csproj.GenerateResource.cache
+E:\Tecnologie\obj\Debug\Tecnologie.csproj.CoreCompileInputs.cache
+E:\Tecnologie\obj\Debug\Tecnologie.csproj.Up2Date
+E:\Tecnologie\obj\Debug\Tecnologie.exe
+E:\Tecnologie\obj\Debug\Tecnologie.pdb

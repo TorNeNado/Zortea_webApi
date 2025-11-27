@@ -125,7 +125,6 @@
             this.label1.Size = new System.Drawing.Size(38, 13);
             this.label1.TabIndex = 5;
             this.label1.Text = "Nome:";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -185,7 +184,6 @@
             this.label3.Size = new System.Drawing.Size(16, 13);
             this.label3.TabIndex = 12;
             this.label3.Text = "Id";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label4
             // 
@@ -241,7 +239,6 @@
             this.label7.Size = new System.Drawing.Size(321, 54);
             this.label7.TabIndex = 18;
             this.label7.Text = "Pizza Express";
-            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // panel1
             // 

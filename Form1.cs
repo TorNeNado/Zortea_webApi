@@ -111,12 +111,6 @@ namespace Tecnologie
             response.EnsureSuccessStatusCode();
         }
 
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private async void button2_Click(object sender, EventArgs e)
         {
             try
@@ -186,15 +180,6 @@ namespace Tecnologie
             }
         }
 
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label7_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
