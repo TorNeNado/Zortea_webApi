@@ -1,22 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
+using System.Net.Http;
 using System.Text;
+using System.Text.Json;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Net.Http;
-using System.Text.Json;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
-
 
 namespace Tecnologie
 {
     public partial class Form1 : Form
     {
         private static readonly HttpClient httpClient = new HttpClient();
+
         private PizzeResponse pizzeResponse;
 
         public Form1()
@@ -24,11 +19,13 @@ namespace Tecnologie
             InitializeComponent();
         }
 
+
         public class Pizza
         {
             public int Id { get; set; }
             public string Nome { get; set; }
             public decimal Prezzo { get; set; }
+            public string DisplayInfo => $"{Nome} - {Prezzo:C}";
         }
 
         public class PizzeResponse
@@ -37,80 +34,70 @@ namespace Tecnologie
         }
 
 
+        private async Task<string> SendRequestAsync(HttpMethod method, string url, object data = null)
+        {
+            var request = new HttpRequestMessage(method, url);
+
+            if (data != null)
+            {
+                var json = JsonSerializer.Serialize(data);
+                request.Content = new StringContent(json, Encoding.UTF8, "application/json");
+            }
+
+            HttpResponseMessage response = await httpClient.SendAsync(request);
+            response.EnsureSuccessStatusCode();
+            return await response.Content.ReadAsStringAsync();
+        }
+
+
+        // TASTO GET (Carica Pizze)
         private async void button1_Click(object sender, EventArgs e)
         {
             try
             {
-                string json = await GetDataAsync("http://localhost:5243/api/Pizze");
+                string url = "http://localhost:5243/api/Pizze";
+                string json = await SendRequestAsync(HttpMethod.Get, url);
 
-                
+                // Deserializzazione come da tua richiesta specifica
                 pizzeResponse = JsonSerializer.Deserialize<PizzeResponse>(json, new JsonSerializerOptions
                 {
                     PropertyNameCaseInsensitive = true
                 });
 
-                listBox1.Items.Clear();
+                listBox1.DataSource = null; // Reset necessario per aggiornare la vista
 
                 if (pizzeResponse?.Pizze != null)
                 {
-                    foreach (var pizza in pizzeResponse.Pizze)
-                    {
-                        listBox1.Items.Add($"{pizza.Nome} - {pizza.Prezzo}€");
-                    }
+                    listBox1.DataSource = pizzeResponse.Pizze;
+                    listBox1.DisplayMember = "DisplayInfo";
+                    listBox1.ValueMember = "Id"; 
                 }
                 else
                 {
-                    MessageBox.Show("Nessuna pizza trovata!");
+                    MessageBox.Show("Nessuna pizza trovata o struttura JSON diversa da { \"pizze\": [] }");
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Errore durante il parsing JSON: {ex.Message}");
+                MessageBox.Show($"Errore: {ex.Message}");
             }
         }
 
-        public async Task<string> GetDataAsync(string url)
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            HttpResponseMessage response = await httpClient.GetAsync(url);
-            response.EnsureSuccessStatusCode();
-            return await response.Content.ReadAsStringAsync();
+            if (listBox1.SelectedItem is Pizza pizzaSelezionata)
+            {
+                // Riempie area Modifica
+                textBox2.Text = pizzaSelezionata.Id.ToString();
+                textBox3.Text = pizzaSelezionata.Nome;
+                numericUpDown2.Value = pizzaSelezionata.Prezzo;
+
+                // Riempie area Elimina
+                textBox4.Text = pizzaSelezionata.Id.ToString();
+            }
         }
 
-        public async Task<string> PostDataAsync(string url, object data)
-        {
-            // Serializza l’oggetto in JSON
-            var json = JsonSerializer.Serialize(data);
-
-            // Prepara il contenuto da inviare
-            var content = new StringContent(json, Encoding.UTF8, "application/json");
-
-            // Manda la richiesta POST
-            HttpResponseMessage response = await httpClient.PostAsync(url, content);
-
-            // Verifica se è andata a buon fine
-            response.EnsureSuccessStatusCode();
-
-            // Ritorna la risposta come stringa
-            return await response.Content.ReadAsStringAsync();
-        }
-
-        public async Task<string> PutDataAsync(string url, object data)
-        {
-            var json = JsonSerializer.Serialize(data);
-            var content = new StringContent(json, Encoding.UTF8, "application/json");
-
-            HttpResponseMessage response = await httpClient.PutAsync(url, content);
-            response.EnsureSuccessStatusCode();
-
-            return await response.Content.ReadAsStringAsync();
-        }
-
-        public async Task DeleteDataAsync(string url)
-        {
-            HttpResponseMessage response = await httpClient.DeleteAsync(url);
-            response.EnsureSuccessStatusCode();
-        }
-
+        // TASTO POST (Aggiungi)
         private async void button2_Click(object sender, EventArgs e)
         {
             try
@@ -118,26 +105,24 @@ namespace Tecnologie
                 var nuovaPizza = new Pizza
                 {
                     Nome = textBox1.Text,
-                    Prezzo = decimal.Parse(numericUpDown1.Value.ToString())
+                    Prezzo = numericUpDown1.Value
                 };
 
-                string url = "http://localhost:5243/api/Pizze";
+                await SendRequestAsync(HttpMethod.Post, "http://localhost:5243/api/Pizze", nuovaPizza);
 
-                string response = await PostDataAsync(url, nuovaPizza);
-
-                MessageBox.Show("Pizza aggiunta con successo!");
+                MessageBox.Show("Pizza aggiunta!");
+                textBox1.Text = "";
+                numericUpDown1.Value = 0;
 
                 button1_Click(sender, e);
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Errore durante la POST: {ex.Message}");
+                MessageBox.Show($"Errore POST: {ex.Message}");
             }
-
-            textBox1.Text = string.Empty;
-            numericUpDown1.Value = 0;
         }
 
+        // TASTO PUT (Modifica)
         private async void button3_Click(object sender, EventArgs e)
         {
             try
@@ -145,53 +130,43 @@ namespace Tecnologie
                 var pizzaAggiornata = new Pizza
                 {
                     Id = int.Parse(textBox2.Text),
-                    Nome = textBox2.Text,
-                    Prezzo = decimal.Parse(numericUpDown2.Text)
+                    Nome = textBox3.Text,        
+                    Prezzo = numericUpDown2.Value
                 };
 
                 string url = $"http://localhost:5243/api/Pizze/{pizzaAggiornata.Id}";
+                await SendRequestAsync(HttpMethod.Put, url, pizzaAggiornata);
 
-                string response = await PutDataAsync(url, pizzaAggiornata);
-
-                MessageBox.Show("Pizza aggiornata con successo!");
-                button1_Click(sender, e); // Ricarica la lista
+                MessageBox.Show("Pizza aggiornata!");
+                button1_Click(sender, e);
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Errore durante la PUT: {ex.Message}");
+                MessageBox.Show($"Errore PUT: {ex.Message}");
             }
         }
 
+        // TASTO DELETE (Elimina)
         private async void button4_Click(object sender, EventArgs e)
         {
             try
             {
+                if (string.IsNullOrEmpty(textBox4.Text)) return;
+
                 int id = int.Parse(textBox4.Text);
                 string url = $"http://localhost:5243/api/Pizze/{id}";
 
-                await DeleteDataAsync(url);
+                await SendRequestAsync(HttpMethod.Delete, url);
 
-                MessageBox.Show("Pizza eliminata con successo!");
-                button1_Click(sender, e); // Ricarica la lista
+                MessageBox.Show("Pizza eliminata!");
+
+                textBox4.Text = "";
+                button1_Click(sender, e);
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Errore durante la DELETE: {ex.Message}");
+                MessageBox.Show($"Errore DELETE: {ex.Message}");
             }
-        }
-
-
-        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            int index = listBox1.SelectedIndex;
-            // inserisce informazioni della pizza selezionata nel put
-            textBox2.Text = pizzeResponse.Pizze[index].Id.ToString();
-            textBox3.Text = pizzeResponse.Pizze[index].Nome;
-            numericUpDown2.Value = pizzeResponse.Pizze[index].Prezzo;
-
-            // inserisce informazioni della pizza selezionata nel delete
-            textBox4.Text = pizzeResponse.Pizze[index].Id.ToString();
-
         }
     }
 }
